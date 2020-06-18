@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1673A2CE-930E-35F5-AF9A-66D0F03EBE2F" name="Diagnostico_Sintoma">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:13:25 UTC</createdTime>
+<ownerDesignName>relacional</ownerDesignName>
+<importedID>7E55237D-4AB8-F4E6-621E-5DF979D62258</importedID>
+<engineerTo>
+<item key="D2993692-B3D0-B024-954D-BC7BEBA9A7F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_diagnostico_sintoma" id="48519C46-0AD8-EA73-E3A5-1EC1C8B270EF">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:13:25 UTC</createdTime>
+<ownerDesignName>relacional</ownerDesignName>
+<importedID>D8C295A5-9086-0984-E35F-E982C0E5B387</importedID>
+<engineerTo>
+<item key="D2993692-B3D0-B024-954D-BC7BEBA9A7F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_certeza" id="793B6729-D79C-A7FF-14AA-BC428B3433EE">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:13:25 UTC</createdTime>
+<ownerDesignName>relacional</ownerDesignName>
+<importedID>11500E01-C222-B18A-B05F-B3066548EF47</importedID>
+<engineerTo>
+<item key="D2993692-B3D0-B024-954D-BC7BEBA9A7F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_diagnostico" id="94623356-5A86-2888-38B8-66F066B708E4">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:13:25 UTC</createdTime>
+<generatorID>6A5248C4-12B4-AD1C-38CB-C47C98A05733</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<importedID>8F5D74DA-7B73-8407-DAAE-F8B229BDAF77</importedID>
+<engineerTo>
+<item key="D2993692-B3D0-B024-954D-BC7BEBA9A7F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>459237C8-10F6-194B-17F6-3687F73CF13B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sintoma" id="8B645934-2FC8-BDA8-A1DD-43CD1D1807B0">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:13:25 UTC</createdTime>
+<generatorID>882D3444-11FD-C02E-0EE9-9582AC378A54</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<importedID>42F0B283-5DC4-101E-97D8-756FD5CD9714</importedID>
+<engineerTo>
+<item key="D2993692-B3D0-B024-954D-BC7BEBA9A7F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>37E0CF02-74D3-0EF6-46D3-C2D8248415AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC8F4232-D988-0547-6C9E-97C91C463374" name="Rango PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:13:25 UTC</createdTime>
+<ownerDesignName>relacional</ownerDesignName>
+<importedID>C26A1266-A7EA-9B79-DA6B-72E84D1A2D5E</importedID>
+<engineerTo>
+<item key="D2993692-B3D0-B024-954D-BC7BEBA9A7F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48519C46-0AD8-EA73-E3A5-1EC1C8B270EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F346E9CB-0B6F-5233-FD42-E697A8D21C57" containerWithKeyObject="79F4EE2B-F57F-78B3-DF8A-0254E6F52F1D" localFKIndex="1CF86C0D-B4FD-8C61-D813-E3A1BD00DDEB" name="Diagnostico_Sintoma_Diagnostico_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>E92E1D46-02C5-F820-0DD0-C162C7B35955</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>C2A79CCE-0272-B676-E662-98CC8F5C7FF8</importedID>
+<referredTableLongName>Diagnostico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>04F5DF0F-D7A9-15F5-FB2D-F74440FE8ECC</referredTableID>
+<keyObject>EA02D3D2-7C15-1A13-D105-A8A1D84C806A</keyObject>
+<referredKeyID>EA02D3D2-7C15-1A13-D105-A8A1D84C806A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_diagnostico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

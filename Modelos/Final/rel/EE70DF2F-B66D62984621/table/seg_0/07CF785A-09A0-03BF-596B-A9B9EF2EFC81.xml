@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07CF785A-09A0-03BF-596B-A9B9EF2EFC81" name="Empleado">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>FFF1B8FD-2143-99AC-E80F-805B33EE4884</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="30D3D50C-B4D4-A2AD-BECC-0E2A33863DE3">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>D1B5B035-0C94-E45D-E690-6884D693DB63</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="FF87ECD8-53AE-C1C4-1662-B2777715EC44">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>95BD4AB6-C556-E3B7-302B-950B89A53287</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="0A0EFB91-B28A-1A58-C653-F29BEFDAD786">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>E81AC793-C84B-D4D2-FA56-6FABC06141E3</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="1E0DF653-0E6A-CB16-A6E5-2C9168EBE2CA">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>593249D3-53EB-BB03-106B-11CC931092ED</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="E68D6EC9-FDC2-B194-9F76-68AA8192D699">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>2342571B-8A0B-B249-B496-A0CAB16CCAE3</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="DA1C0C88-6DCF-8021-A36D-F81A885A667C">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>8C232A6F-C3E8-DD54-C2C2-9FFDFA6CDD5B</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="A6DDE886-9B33-E2CD-8973-F73E86FAEE88">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>BB41FD5F-C849-B4C5-3124-122CCCFA062A</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titulo_id_titulo" id="9544E581-C303-AEA0-85FC-5F66D4A246EA">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>451C0DE8-2CDF-CBD5-8D4D-08ED4201AD6E</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BAA25AA-11B6-DA17-5D3C-EAB2FC0C9583" referredColumn="B6759009-3E84-E9EB-11B2-590852E6A260"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B82B753E-34E0-D849-5471-7DA393D1D736" name="Empleado_PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>EC7E9C2F-550C-BB85-8118-593FB066A961</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30D3D50C-B4D4-A2AD-BECC-0E2A33863DE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D97F46CB-8A0F-C2C1-6F6C-007931638D99" name="Empleado_Titulo_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>D62A4A8F-C30A-C961-A68F-B32581E9C7D5</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9544E581-C303-AEA0-85FC-5F66D4A246EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

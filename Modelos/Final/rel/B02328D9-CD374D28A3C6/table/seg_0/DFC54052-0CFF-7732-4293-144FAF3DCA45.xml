@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFC54052-0CFF-7732-4293-144FAF3DCA45" name="evaluacion_sintoma">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>79CE683F-90C2-0982-5F08-C59499F0AAA5</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>F2AD8BCD-25C7-85B4-9564-1F9F91851EB0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_evaluacion_sintoma" id="56679AE3-2007-6FCB-3DB0-116CDC6D48E8">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>B4D34753-9448-FCC7-B411-203E65A1D0D7</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>B8D5D29A-4BFA-6E7B-2390-2569591AD878</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sintoma_id_sintoma" id="8DB76F9E-5F16-1553-4B07-F614E69B50E6">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>D3D001EE-0124-FF47-D5D9-C57836AE15BC</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>066B088B-D13D-4D19-FBDF-7C76AC71C8D8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8944DD62-4BE3-C620-1D0B-D0A56EABE694" referredColumn="5B026307-E53C-D209-26D5-724E7E4D15FA"/>
+</associations>
+</Column>
+<Column name="Evaluacion_id_evaluacion" id="416A3478-5CB7-2213-4C63-8635365D543A">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>21AF883D-5E4F-5A10-42ED-7541822B1280</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>6B9951E0-C89B-880E-1D9A-036C674EA08D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B9F045F-8BBB-7907-B23C-85522D6B9723" referredColumn="5FDB0573-91B0-83FA-A70E-02D3FD1D3C72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DDDFAAC-8FA9-5307-356C-2EDE3A0299CE" name="evaluacion_sintoma_PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>E2D3A048-38DA-FBCB-1807-DC6CAAE90599</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>5C649974-8ED8-8DE1-D319-ABE7B5F4912E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56679AE3-2007-6FCB-3DB0-116CDC6D48E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB45073D-268F-C4C3-BB90-5CE830BDBA62" name="evaluacion_sintoma_Sintoma_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>B1BB839A-0F31-5D59-99B0-D7C63473EC39</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DB76F9E-5F16-1553-4B07-F614E69B50E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F680075-B532-EBB9-312B-F2B92F64B724" name="evaluacion_sintoma_Evaluacion_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>DAA8CC47-C04C-84B8-255B-6E15772538FF</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="416A3478-5CB7-2213-4C63-8635365D543A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

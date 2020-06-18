@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C280656-28F0-C2BA-B393-43730111F844" name="Tratamiento">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>5AD53A34-A14F-163B-4675-D97B9ED9665E</importedID>
+<engineerTo>
+<item key="EE70DF2F-9467-747A-82C6-B66D62984621" value="true"/>
+<item key="B02328D9-DB77-2397-6AF7-CD374D28A3C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tratamiento" id="8E58E0AF-A1D7-9DAF-645C-FAE6487ECDEF">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>AF5148D9-2CAD-0567-D2F5-D7480A62D438</importedID>
+<engineerTo>
+<item key="EE70DF2F-9467-747A-82C6-B66D62984621" value="true"/>
+<item key="B02328D9-DB77-2397-6AF7-CD374D28A3C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="7F09B6FB-A271-DC95-72FB-022C2893792E">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>64FA9820-A4F7-07EF-203E-7AF6F4609751</importedID>
+<engineerTo>
+<item key="EE70DF2F-9467-747A-82C6-B66D62984621" value="true"/>
+<item key="B02328D9-DB77-2397-6AF7-CD374D28A3C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="61E09C2B-30CF-6C20-D5C7-E4591250F405" name="Tratamiento PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>86D65A3A-BD9C-DD71-AB88-3803512254CF</importedID>
+<engineerTo>
+<item key="EE70DF2F-9467-747A-82C6-B66D62984621" value="true"/>
+<item key="B02328D9-DB77-2397-6AF7-CD374D28A3C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E58E0AF-A1D7-9DAF-645C-FAE6487ECDEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

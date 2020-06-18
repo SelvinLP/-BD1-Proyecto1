@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E21B24B2-D00D-02A7-3B46-84C5AADBAD3C" name="Sintoma">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:44 UTC</createdTime>
+<generatorID>0FD58CB6-99E4-B5AE-55F0-0131E4439B5B</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sintoma" id="ED62827B-8866-BCFF-4359-8A2BE7F35E25">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:44 UTC</createdTime>
+<generatorID>37E0CF02-74D3-0EF6-46D3-C2D8248415AF</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="45586DCC-FF47-60D3-A93B-71002F74ED48">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:44 UTC</createdTime>
+<generatorID>96CA65EA-10DD-B3A7-CC8A-F69ECD0F0E49</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="668F329B-FAE5-223D-170A-49D19D299743" name="Sintoma_PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:44 UTC</createdTime>
+<generatorID>1563A88F-5ED9-5E83-CBA2-388655C0412C</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED62827B-8866-BCFF-4359-8A2BE7F35E25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

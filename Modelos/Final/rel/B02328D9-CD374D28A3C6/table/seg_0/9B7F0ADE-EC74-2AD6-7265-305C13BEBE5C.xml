@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B7F0ADE-EC74-2AD6-7265-305C13BEBE5C" name="Paciente">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>33A23ADF-6BEB-13F9-C9DE-8D3566A60CCE</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>697F7D22-F9BC-67E1-F2D2-60839586563B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paciente" id="73B7CB39-F818-FDDC-5E30-E42463871832">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>92C17BD1-03A3-8CF8-3C4D-B47556BB4526</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>E8214DE7-5343-36C5-6EEA-8140864ECED5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1AA6B6B4-23D8-76C9-AB95-589B64E47B94">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>5DEEF290-71DB-7634-4E99-B0D1EE2B4310</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>6677A2A8-0CD0-4996-5CD5-05BF6A3EFB2E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="B21CFFF8-EF55-B16B-4F5D-712AD7A664CF">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>F7EC0EBF-8907-5E68-398B-3466C64BE161</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>A0A99D25-01F1-E78F-F5AE-D55A59D07DB1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="77F7B888-1CE3-73E1-0E12-E240AB3E83A3">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>D5AD77B2-E483-4983-4111-63FB30ACDBEF</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>2C1CA768-79CB-E987-7DBF-8EEAB1BC27C4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="2ECAEB65-F7DA-14D4-9799-24A516E1E569">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>DF1FA94E-BF50-3E91-8C70-8EABDCA2BC5D</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>C86C1527-5770-E814-0A1D-EC07F09E128A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="00C68171-9E56-676A-8520-0DBED8BC6D50">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>5DE759BE-9867-EBEC-9279-07F38CA93634</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>D308C030-97F3-0F49-38D9-4F48B1DBE87A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="03843065-3622-A57F-F676-68083CB9D025">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>AD342D48-8289-BC73-941C-163A45A0EFB7</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>3F402AB0-9ADB-B053-9199-37B5EF58EBD3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="3DFCC340-F5AD-C766-A640-2628DA0CE770">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>41F20959-4627-9D0D-25E8-61D90FB5A00B</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>53311C84-1457-86DA-DBF5-7F24E4358BE5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="0096D804-A004-D096-B85F-7A4C2BF6BC9A">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>CF2F1BA8-DB62-30FE-B90E-290A7A1DE390</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>2E7637EE-7843-5218-1FED-2DB858B8BA0E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C04E0F43-5571-FB94-5915-10F0F70BF705" name="Paciente_PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>6C1A4C08-2870-9D77-F89E-1F0EF8723DC6</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>5BA4C5D9-0DC7-78DD-8AFD-60BE978CDBC4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73B7CB39-F818-FDDC-5E30-E42463871832"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+===============================================================================
+===============================================================================
+===============================================================================
+
+PASOS PARA REALIZAR LA CARGA MASIVA:
+
+1. Crear la tabla que va a alojar todos los datos temporales (archivo de carga CSV -> tabla temporal)
+2. Creación de table MySQL -> a un script de Oracle.
+3. Descargar el CSV.
+4. Crear el archivo de control.
+5. Correr el comando sqlldr (Clase 5 - Parte 2).
+
+===============================================================================
+===============================================================================
+===============================================================================
+
+COSAS A CONSIDERAR:
+
+1. Se puede usar docker, funciona, lo unico malo es la descarga (~5GB).
+
+2. Cada vez que se inicie el container hay que correr el script (sh post_install.sh).
+    - Esto unicamente para las personas que utilizaron el siguiente tutorial: https://soajp.blogspot.com/2019/03/instalar-oracle-database-18c-con-docker.html
+
+3. Si usaron el tutorial anterior, su SID = ORCL18
+    
+4. Crear una carpeta en home (de preferencia) donde a esa carpeta se le tengan que dar permisos con el siguiente comando:
+    - chmod -R 777 CARPETA_QUE_CREARON
+    
+
+===============================================================================
+===============================================================================
+===============================================================================
+
+LINK DEL ARCHIVO DE CARGA:
+> https://drive.google.com/file/d/11hKDLzlnIyF7UXY1uh66LNJnwWpdmWZf/view?usp=sharing
+
+COMANDO PARA DESCARGAR EL ARCHIVO DE CARGA CON WGET:
+> wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=11hKDLzlnIyF7UXY1uh66LNJnwWpdmWZf' -O big_smoke_data.csv
+
+CREAR ARCHIVO CONTROL DENTRO DEL CONTENEDOR
+> vi control.ctl (aqui van el load data y todo eso)  
+  :wq para guardar y salir del archivo 
+
+CONSULTA (A USAR LUEGO DE SQLPLUS) PARA SABER EL SID:
+> SELECT sys_context('userenv','instance_name') FROM dual;
+
+COMANDO PARA CAMBIAR DE USUARIO:
+> gosu oracle bash
+
+COMANDO PARA CARGA MASIVA:
+> sqlldr micifus/mypass@orcl control=c:\loader.ctl data=c:\pruebaexcel.csv log=c:\registrolog.txt
+
+
+sqlldr Proyecto2/1234@ORCL18 control=control.ctl data=big_smoke_data.csv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

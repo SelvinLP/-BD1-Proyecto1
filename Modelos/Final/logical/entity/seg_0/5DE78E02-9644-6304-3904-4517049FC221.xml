@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DE78E02-9644-6304-3904-4517049FC221" name="Sintoma">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:03 UTC</createdTime>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>0FD58CB6-99E4-B5AE-55F0-0131E4439B5B</importedID>
+<engineerTo>
+<item key="EE70DF2F-9467-747A-82C6-B66D62984621" value="true"/>
+<item key="B02328D9-DB77-2397-6AF7-CD374D28A3C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sintoma" id="C0C84B03-88E2-85B7-1807-10994814ED0A">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>37E0CF02-74D3-0EF6-46D3-C2D8248415AF</importedID>
+<engineerTo>
+<item key="EE70DF2F-9467-747A-82C6-B66D62984621" value="true"/>
+<item key="B02328D9-DB77-2397-6AF7-CD374D28A3C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="6154E678-2F8B-940B-FCA2-3967D0AAC00E">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>96CA65EA-10DD-B3A7-CC8A-F69ECD0F0E49</importedID>
+<engineerTo>
+<item key="EE70DF2F-9467-747A-82C6-B66D62984621" value="true"/>
+<item key="B02328D9-DB77-2397-6AF7-CD374D28A3C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B93FB8A-318A-3CED-74C5-6E51F18356EE" name="Sintoma PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>1563A88F-5ED9-5E83-CBA2-388655C0412C</importedID>
+<engineerTo>
+<item key="EE70DF2F-9467-747A-82C6-B66D62984621" value="true"/>
+<item key="B02328D9-DB77-2397-6AF7-CD374D28A3C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0C84B03-88E2-85B7-1807-10994814ED0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

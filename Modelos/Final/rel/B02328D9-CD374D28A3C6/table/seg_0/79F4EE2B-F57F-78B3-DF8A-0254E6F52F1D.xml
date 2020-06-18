@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79F4EE2B-F57F-78B3-DF8A-0254E6F52F1D" name="Diagnostico_Sintoma">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>AE480705-D05D-B6B8-6557-CE5622FBE3B9</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>E8A289AA-4E37-A148-AD90-DFE5BC5CA4CF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_diagnostico_sintoma" id="66867ADA-C61E-FE87-E5DC-55F430F862C8">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>25ED3E30-65AB-0A61-012A-BB35DA8986CB</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>B5AF4184-EF9D-687A-DD40-972AC7480A51</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_certeza" id="F720DD5B-A4D7-3832-98A4-E930932A1640">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>353C0F2B-364C-B4C2-308F-8495A1EC8AA4</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>DFDFF8F0-2183-2EBB-390C-811EBCF809A2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Diagnostico_id_diagnostico" id="7E453447-0E20-B83B-36B7-CBCCC4751D09">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>4835B622-32AF-BBDB-6522-A006633C34A0</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>9B7B83A4-BD3E-DEDA-173F-4A79703EA0B0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F346E9CB-0B6F-5233-FD42-E697A8D21C57" referredColumn="AF91CCCA-F79E-4EC4-E2A7-DBD45262A0F9"/>
+</associations>
+</Column>
+<Column name="Sintoma_id_sintoma" id="1B0EA7F5-9825-6624-C362-6F5F92509752">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>68DF4E08-7094-F924-5B78-DE5DD4396851</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>991E3648-96FF-BEB3-EAA4-68E00F719443</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FFD10EB-C8B6-FB0F-60F4-57002B65C15D" referredColumn="5B026307-E53C-D209-26D5-724E7E4D15FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD7CF577-E9CB-8B4F-F85D-D98372DD5520" name="Diagnostico_Sintoma_PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>6264ED38-3B39-596C-36B3-642887746315</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>53DF6961-6997-30D2-D73F-DEC728BD6043</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66867ADA-C61E-FE87-E5DC-55F430F862C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="443BAE27-C06C-7E30-401F-C8B0935519AA" name="Diagnostico_Sintoma_Sintoma_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>9896F270-53E3-9D7B-14CC-9BDED1D0D805</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B0EA7F5-9825-6624-C362-6F5F92509752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CF86C0D-B4FD-8C61-D813-E3A1BD00DDEB" name="Diagnostico_Sintoma_Diagnostico_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>E92E1D46-02C5-F820-0DD0-C162C7B35955</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E453447-0E20-B83B-36B7-CBCCC4751D09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

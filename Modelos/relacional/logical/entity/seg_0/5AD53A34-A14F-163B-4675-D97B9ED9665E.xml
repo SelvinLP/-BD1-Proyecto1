@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5AD53A34-A14F-163B-4675-D97B9ED9665E" name="Tratamiento">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:13:24 UTC</createdTime>
+<ownerDesignName>relacional</ownerDesignName>
+<importedID>8169D4F0-7F31-F3E4-684E-D1086C587F32</importedID>
+<engineerTo>
+<item key="D2993692-B3D0-B024-954D-BC7BEBA9A7F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tratamiento" id="AF5148D9-2CAD-0567-D2F5-D7480A62D438">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:13:25 UTC</createdTime>
+<ownerDesignName>relacional</ownerDesignName>
+<importedID>8078D40C-F6B2-6124-30B4-1B1183DDC6A1</importedID>
+<engineerTo>
+<item key="D2993692-B3D0-B024-954D-BC7BEBA9A7F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="64FA9820-A4F7-07EF-203E-7AF6F4609751">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:13:25 UTC</createdTime>
+<ownerDesignName>relacional</ownerDesignName>
+<importedID>0984FFCD-CF97-5AF5-C25B-8D568C5D0E4A</importedID>
+<engineerTo>
+<item key="D2993692-B3D0-B024-954D-BC7BEBA9A7F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86D65A3A-BD9C-DD71-AB88-3803512254CF" name="Tratamiento PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:13:25 UTC</createdTime>
+<ownerDesignName>relacional</ownerDesignName>
+<importedID>4A125C63-4066-B244-62C4-9763D75922DC</importedID>
+<engineerTo>
+<item key="D2993692-B3D0-B024-954D-BC7BEBA9A7F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF5148D9-2CAD-0567-D2F5-D7480A62D438</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

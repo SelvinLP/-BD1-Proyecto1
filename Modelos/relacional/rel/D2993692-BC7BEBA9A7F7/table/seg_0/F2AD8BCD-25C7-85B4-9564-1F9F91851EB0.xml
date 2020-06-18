@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2AD8BCD-25C7-85B4-9564-1F9F91851EB0" name="evaluacion_sintoma">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:44 UTC</createdTime>
+<generatorID>C03C226B-4A71-5A2A-1EBC-10571666F1F1</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_evaluacion_sintoma" id="B8D5D29A-4BFA-6E7B-2390-2569591AD878">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:44 UTC</createdTime>
+<generatorID>FE7D7017-F9B1-52F0-FCBE-ADD21FCA1E6C</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sintoma_id_sintoma" id="066B088B-D13D-4D19-FBDF-7C76AC71C8D8">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:44 UTC</createdTime>
+<generatorID>E67AD17B-204D-3300-63D8-89F0DE64D8B2</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="137D8F91-F908-F6EC-5A7A-61059CED5331" referredColumn="ED62827B-8866-BCFF-4359-8A2BE7F35E25"/>
+</associations>
+</Column>
+<Column name="Evaluacion_id_evaluacion" id="6B9951E0-C89B-880E-1D9A-036C674EA08D">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:44 UTC</createdTime>
+<generatorID>49278503-588B-78F1-C19A-49D92B47A8F5</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7197522A-D72D-6261-E202-09427B81339B" referredColumn="841C9EC9-B6D6-26DC-CB1F-D5B9B68979CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C649974-8ED8-8DE1-D319-ABE7B5F4912E" name="evaluacion_sintoma_PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:44 UTC</createdTime>
+<generatorID>CB170C5D-0D8F-C3B5-05E9-BE78AD31BF62</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8D5D29A-4BFA-6E7B-2390-2569591AD878"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7330C8C8-46B6-803A-305D-3C2AE789B35F" name="evaluacion_sintoma_Sintoma_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:45 UTC</createdTime>
+<generatorID>5BB1EF98-1F26-ECC4-08CB-8108218FF5C9</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="066B088B-D13D-4D19-FBDF-7C76AC71C8D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E60F6C1-E3CE-6570-18CE-2685A43B40AF" name="evaluacion_sintoma_Evaluacion_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-16 05:19:45 UTC</createdTime>
+<generatorID>5EBDEC1C-629F-B8E4-54BE-EC5922835285</generatorID>
+<ownerDesignName>relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B9951E0-C89B-880E-1D9A-036C674EA08D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

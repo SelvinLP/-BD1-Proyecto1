@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A67A310-E451-2184-2274-282FC794F8BF" name="Evaluacion">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>F9172598-1981-16F6-5A23-81CBF03FFBC8</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_evaluacion" id="F0F82251-C9CC-7640-9E76-60CA4D99CBDF">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>CE8070CA-9C3F-C1E3-4E7B-283D943EABA2</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_evaluacion" id="C7F12FA8-E2F9-AFAF-320C-610D07F709CF">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>483059AA-D6E3-B37D-0395-C61656B07263</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_id_empleado" id="6C9B1C5E-C6D1-F379-E95E-0160829AD03B">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>AEFA7D51-8A5C-EB6D-6B9A-B751BE8B906C</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B502C1BC-37FA-9A13-5826-24B7441979CD" referredColumn="30D3D50C-B4D4-A2AD-BECC-0E2A33863DE3"/>
+</associations>
+</Column>
+<Column name="Paciente_id_paciente" id="0A994747-41E7-A4E8-186F-F3E16F40CEC4">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>198AB33F-396B-F17D-F3A1-ED754CA9FC42</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0A053E9-8FF7-9973-0539-F1A0E817D4FA" referredColumn="8D7A2D59-A55A-BF70-E23F-C6C0AC4FD1B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84285A9E-3699-9EE4-3C9F-BA5F35890928" name="Evaluacion_PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>D9618A9A-A59F-8112-3BAF-1850EF4C11A2</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0F82251-C9CC-7640-9E76-60CA4D99CBDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="656ECE49-F56F-5722-9AA2-00ED02DED032" name="Evaluacion_Empleado_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>E8BCB600-5BFD-2945-EB4C-EEDB009866A8</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C9B1C5E-C6D1-F379-E95E-0160829AD03B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="223CFC50-82F3-72C2-1F97-C9DC890BC310" name="Evaluacion_Paciente_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>F83932DE-6335-6704-2CDA-F30EEA287F39</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A994747-41E7-A4E8-186F-F3E16F40CEC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Final" id="31339281-7D87-4587-D0BF-ABA29351DB5F" version="3.5">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:05:18 UTC</createdTime>
+<ownerDesignName>Final</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>31339281-7D87-4587-D0BF-ABA29351DB5F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="52018CAE-58E6-05EA-B2F6-9A0DAE749E00">
+<designStoragePath>/home/selvin/Documentos/Sistemas de Bases de Datos 1/[BD1]Proyecto 1/Modelos/Proyecto1</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6FDDFB9C-F306-9A62-25B0-D25B3E138C1A">
+<designStoragePath>/home/selvin/Documentos/Sistemas de Bases de Datos 1/[BD1]Proyecto 1/Modelos/Sin título_1</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6F65387B-65A6-5C2D-7134-6C316E71D4CE">
+<designStoragePath>/home/selvin/Documentos/Sistemas de Bases de Datos 1/[BD1]Proyecto 1/Modelos/relacional</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

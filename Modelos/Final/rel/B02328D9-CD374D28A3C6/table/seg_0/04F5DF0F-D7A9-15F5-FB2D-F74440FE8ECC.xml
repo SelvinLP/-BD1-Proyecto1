@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04F5DF0F-D7A9-15F5-FB2D-F74440FE8ECC" name="Diagnostico">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>90621A7E-8586-4FFC-F5F3-237DF8A5ACB0</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>FCDEB748-83AA-8E83-27C5-0BD7F5F5C9EC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_diagnostico" id="AF91CCCA-F79E-4EC4-E2A7-DBD45262A0F9">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>0FB9BAA4-0A3B-38C5-210E-B800F3023654</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>A8BD2EAC-D65C-67CD-BF46-9081B45AB409</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="63B87792-BEF6-7782-161F-19959DB13DF1">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>408860A3-F1D4-5002-48EF-791807553D78</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>82302FCC-3D14-04E4-45BA-C1866A2AFDFC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA02D3D2-7C15-1A13-D105-A8A1D84C806A" name="Diagnostico_PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:08:04 UTC</createdTime>
+<generatorID>662DED63-F85C-75FB-035A-13E24C35BF96</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<importedID>C1377606-B3EB-F566-4E37-B17B080CD749</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF91CCCA-F79E-4EC4-E2A7-DBD45262A0F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

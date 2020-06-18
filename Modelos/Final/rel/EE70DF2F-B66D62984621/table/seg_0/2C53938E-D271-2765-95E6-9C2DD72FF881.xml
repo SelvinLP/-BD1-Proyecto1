@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C53938E-D271-2765-95E6-9C2DD72FF881" name="paciente_tratamiento">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>F4FBB939-A1EF-B976-4011-DBAE76FD5976</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paciente_tratamiento" id="C355BBC9-546D-CE78-9F47-201D6871987C">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>377128DE-FD4E-64A1-089B-2BAA5F43E22E</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_tratamiento" id="86A08DB3-CFD2-ED0B-34B2-DA73730FB02D">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>0CCC9DA6-6E81-5F54-A689-EA91057649E9</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tratamiento_id_tratamiento" id="9569BE21-BDFF-F1AF-A8DF-04BC70D6458D">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>30E8B1B1-2550-5D39-F45D-4F9FD6C18E48</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="791B1DD8-D577-D29A-70BA-81DF5568D6E1" referredColumn="71FEEFAB-5D9B-C96E-3203-3170BE377EF9"/>
+</associations>
+</Column>
+<Column name="Paciente_id_paciente" id="AFBB11E3-B806-3797-129C-7F29C7D9D01F">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>77E6ACDF-B386-7683-9747-364AE8F8EF8B</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DD35583-FE5C-A925-9F5B-CD485E7566F4" referredColumn="8D7A2D59-A55A-BF70-E23F-C6C0AC4FD1B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A2CDFE6-A021-1E4B-CAA1-87E8E2E97EC6" name="paciente_tratamiento_PK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>DF7A1FAA-5908-8850-A85F-21C18AC283E4</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C355BBC9-546D-CE78-9F47-201D6871987C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06EFA895-CD0B-286E-051D-088A6946D05F" name="paciente_tratamiento_Tratamiento_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>0DFC162B-07E3-860E-2D74-B4B310C17B08</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9569BE21-BDFF-F1AF-A8DF-04BC70D6458D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3085DE51-551B-4CAB-0906-6FF88112F1B4" name="paciente_tratamiento_Paciente_FK">
+<createdBy>selvin</createdBy>
+<createdTime>2020-06-17 02:19:57 UTC</createdTime>
+<generatorID>31442F8A-5DD7-F7D1-BB33-6829614B7172</generatorID>
+<ownerDesignName>Final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFBB11E3-B806-3797-129C-7F29C7D9D01F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
